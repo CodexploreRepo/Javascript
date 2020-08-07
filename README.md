@@ -26,6 +26,18 @@ var lastName = "Xplore";
       console.log("Bye");
     };
     ```
+4. **Array**
+5. **Object**
+6. **Loop**
+
+     - For; While
+     - **forEach**
+     ```Javascript
+      todos.forEach(function (todo, index) {
+          todo = todo + " at index: " + index;
+          console.log(todo);
+      });
+    ```
 [(Back to top)](#table-of-contents)
 
 
