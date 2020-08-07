@@ -10,6 +10,7 @@ Javascript NoteBook for Beginners from CodeXplore
 
 
 # Basics 
+    [Code](/#1_JS_Basics.js)
 1. **Variables**
 ```Javascript
 var firstName = "Code";
@@ -28,9 +29,7 @@ var lastName = "Xplore";
     ```
 4. **Array**
 5. **Object**
-6. **Loop**
-
-     - For; While
+6. **Loop: for, while, forEach**
      - **forEach**
      ```Javascript
       todos.forEach(function (todo, index) {
