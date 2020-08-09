@@ -53,3 +53,12 @@ document.querySelectorAll("h1")
 
 ```
 
+2. **DOM Change innerHTML**:
+```JavaScript
+var h1Tag = document.querySelector("h1")
+h1Tag.innterHTML = "Welcome to CodeXplore"
+```
+
+[(Back to top)](#table-of-contents)
+
+
