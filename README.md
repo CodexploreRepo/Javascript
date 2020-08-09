@@ -6,6 +6,7 @@ Javascript NoteBook for Beginners from CodeXplore
 
 - [Table of contents](#table-of-contents)
 - [Basics](#basics)
+- [Document Object Model](#document-object-model)
 
 
 
@@ -39,4 +40,16 @@ var lastName = "Xplore";
     ```
 [(Back to top)](#table-of-contents)
 
+# Document Object Model 
+1. **DOM Selectors**:
+
+```JavaScript
+document.getElementsByTagName("h2")
+document.getElementsByClassName("second")
+document.getElementById("first")
+
+document.querySelector("h1") //Only select First item
+document.querySelectorAll("h1")
+
+```
 
