@@ -50,14 +50,16 @@ document.getElementById("first")
 
 document.querySelector("h1") //Only select First item
 document.querySelectorAll("h1")
-
 ```
+    **Parent & Children Selector:**
+
 
 2. **DOM Change innerHTML**:
 ```JavaScript
 var h1Tag = document.querySelector("h1")
 h1Tag.innterHTML = "Welcome to CodeXplore"
 ```
+
 
 [(Back to top)](#table-of-contents)
 
