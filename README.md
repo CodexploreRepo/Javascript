@@ -51,7 +51,7 @@ document.getElementById("first")
 document.querySelector("h1") //Only select First item
 document.querySelectorAll("h1")
 ```
-    **Parent & Children Selector:**
+   **Parent and Children Selector**
 
 
 2. **DOM Change innerHTML**:
