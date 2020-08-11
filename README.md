@@ -82,17 +82,18 @@ Javascript NoteBook for Beginners from CodeXplore
 	const array = [1, 2, 10, 16];
     ```
 
-   - **forEach**: loop over something
+   - **forEach**: only loop over something (suggest to use map instead of forEach)
     ```Javascript
 	const double = [];
 	array.forEach((num) => {
 	  double.push(num * 2);
 	});
     ```
-    - **map**: loop over something & return a new array (diff from forEach)
+    - **map**: loop over something & return a new array (diff from forEach)<br>
+    Note: Need to **return in Map**
     ```Javascript
 	const mapArray = array.map((num) => {
-	  return num * 2;
+	  return num * 2; //Need to return in Map
 	});
     ```
 
