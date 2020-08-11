@@ -62,7 +62,7 @@ Javascript NoteBook for Beginners from CodeXplore
     ```Javascript
 
     const add = (a,b) => {
-	return a + b;;
+    	return a + b;;
     };
     ```
     
