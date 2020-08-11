@@ -7,6 +7,7 @@ Javascript NoteBook for Beginners from CodeXplore
 - [Table of contents](#table-of-contents)
 - [Basics](#basics)
 - [Document Object Model](#document-object-model)
+- [FAQ](#faq)
 
 
 
@@ -53,14 +54,25 @@ document.querySelectorAll("h1")
 ```
    **Parent and Children Selector**
 
+```JavaScript
+document.querySelector("li").parentElement
+document.querySelector("ul").children
+```
 
-2. **DOM Change innerHTML**:
+2. **DOM Change innerHTML textContent**:
 ```JavaScript
 var h1Tag = document.querySelector("h1")
 h1Tag.innterHTML = "Welcome to CodeXplore"
+
+var css = document.querySelector("h3");
+css.textContent = body.style.background + ";";
+
 ```
 
 
 [(Back to top)](#table-of-contents)
+
+# FAQ
+1. Why JQuery is not popular nowadays?
 
 
