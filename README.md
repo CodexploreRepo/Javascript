@@ -58,12 +58,23 @@ Javascript NoteBook for Beginners from CodeXplore
     };
     sayBye()
     ```
-    - **Array Function**
+    - **Arrow Function**
     ```Javascript
 
     const add = (a,b) => {
     	return a + b;;
     };
+    ```
+    
+    - **Currying:** process of converting the function taking multiple inputs to the function that can access the input one by one at the time
+    ```Javascript
+	//Currying
+	const multiply = (a, b) => a * b;
+	const curriedMultiply = (a) => (b) => a * b;
+	curriedMultiply(3)(4);
+	
+	//curriedMultiply(5) = (b) => 5 * b
+	const multiplyBy5 = curriedMultiply(5);
     ```
     
 4. **Array**
