@@ -74,7 +74,7 @@ const user = {
   },
 };
 ```
-//ES6 Feature for Objects:
+**ES6 Feature for Objects:**
 ```JavaScript
 //Object Destruction:
 
