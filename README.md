@@ -19,6 +19,23 @@ var firstName = "Code";
 var lastName = "Xplore";
 ```
 2. **Control Flow**<br>
+    - **Ternary Operator**
+    ```Javascript
+    condition ? expr1: expr2;
+    ```
+    - **Switch**
+    ```Javascript
+	switch(expression) {
+	  case x:
+	    // code block
+	    break;
+	  case y:
+	    // code block
+	    break;
+	  default:
+	    // code block
+	}
+    ```
 3. **Functions**
     - **Function Expression**
     ```Javascript
