@@ -28,6 +28,7 @@ var lastName = "Xplore";
     var sayBye = function () {
       console.log("Bye");
     };
+    sayBye()
     ```
 4. **Array**
 5. **Object**
