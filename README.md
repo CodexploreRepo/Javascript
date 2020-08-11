@@ -78,6 +78,19 @@ Javascript NoteBook for Beginners from CodeXplore
     ```
     
 4. **Array**
+    ```Javascript
+	const array = [1, 2, 10, 16];
+    ```
+
+   - **forEach**: loop over something
+    ```Javascript
+	
+	const double = [];
+	array.forEach((num) => {
+	  double.push(num * 2);
+	});
+    ```
+
 5. **Object**
 
 ```
