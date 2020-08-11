@@ -15,8 +15,9 @@ Javascript NoteBook for Beginners from CodeXplore
 
 1. **Variables: var, let, const**
     - **var:** the scope is quite similar to let; but a little bit confusing, so not recommend to use
-    - **let:** the scope is only within {}
-    - **const:** cannot be re-assign the variable; use to assign for variables which we will not re- like: Function; Object<br>
+    - **let (ES6):** the scope is only within {}
+    - **const (ES6):** cannot be re-assigned the variable; use to assign for variables which we will not re- like: Function; Object<br>
+    cannot be re-assigned means: const a = {}; a = 1; => Error <br>
     const a = function() {}; a is a function; const a: to make sure nobody assign something else to function a
 	```Javascript
 	var firstName = "Code";
@@ -59,6 +60,33 @@ Javascript NoteBook for Beginners from CodeXplore
     ```
 4. **Array**
 5. **Object**
+
+```
+const user = {
+  name: "CodeXplore",
+  age: 25,
+  //Array inside Object
+  hobby: ["Footbal", "Swimming"],
+  isMarried: false,
+  //Method inside Object
+  shout: function () {
+    console.log("TD, I love you");
+  },
+};
+
+//ES6 Feature for Objects:
+
+//Object Destruction:
+
+const { name, hobby } = user
+
+//Object Construction:
+
+const a = "Simon";
+const b = true;
+const c = {};
+const obj = {a,b,c}
+```
 6. **Loop: for, while, forEach**
      - **forEach**
      ```Javascript
