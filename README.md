@@ -58,6 +58,14 @@ Javascript NoteBook for Beginners from CodeXplore
     };
     sayBye()
     ```
+    - **Function Expression**
+    ```Javascript
+
+    const add = (a,b) => {
+    	a + b;
+    };
+    ```
+    
 4. **Array**
 5. **Object**
 
