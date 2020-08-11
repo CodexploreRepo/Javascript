@@ -90,16 +90,23 @@ Javascript NoteBook for Beginners from CodeXplore
 	});
     ```
     - **map**: loop over something & return a new array (diff from forEach)<br>
-    Note: Need to **return in Map**
+    Note: Need to **return in map**
     ```Javascript
 	const mapArray = array.map((num) => {
 	  return num * 2; //Need to return in Map
 	});
     ```
+    - **filter**: loop, filter & return a new array <br>
+    Note: Need to **return in filter**
+    ```Javascript
+	const filterArray = array.filter((num) => {
+	  return num > 5;
+	});
+    ```
 
 5. **Object**
 
-```
+```JavaScript
 const user = {
   name: "CodeXplore",
   age: 25,
