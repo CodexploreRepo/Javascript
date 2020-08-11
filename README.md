@@ -13,11 +13,21 @@ Javascript NoteBook for Beginners from CodeXplore
 
 # Basics 
 
-1. **Variables**
-```Javascript
-var firstName = "Code";
-var lastName = "Xplore";
-```
+1. **Variables: var, let, const**
+    - **var:** the scope is quite similar to let; but a little bit confusing, so not recommend to use
+    - **let:** the scope is only within {}
+    - **const:** cannot be re-assign the variable; use to assign for variables which we will not re- like: Function; Object<br>
+    const a = function() {}; a is a function; const a: to make sure nobody assign something else to function a
+	```Javascript
+	var firstName = "Code";
+	var lastName = "Xplore";
+
+	let experience = 100;
+
+	const a = function() {
+		console.log("Hello World");
+	};
+	```
 2. **Control Flow**<br>
     - **Ternary Operator**
     ```Javascript
