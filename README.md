@@ -73,9 +73,9 @@ const user = {
     console.log("TD, I love you");
   },
 };
-
+```
 //ES6 Feature for Objects:
-
+```JavaScript
 //Object Destruction:
 
 const { name, hobby } = user
