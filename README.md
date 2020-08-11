@@ -74,5 +74,6 @@ css.textContent = body.style.background + ";";
 
 # FAQ
 1. Why JQuery is not popular nowadays?
+    JQuery has 1 issue, it make the code imperative => you have to tell the program what to do 1-by-1. When website get scaled => JQuery becomes a issue as 1 action depends on other actions, and depends on another action => more bugs. 
 
 
