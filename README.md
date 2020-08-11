@@ -70,7 +70,30 @@ css.textContent = body.style.background + ";";
 
 ```
 
+3. **DOM Event Listener**
+```JavaScript
+var button = document.getElementsByTagName("button")[0];
 
+//Method 1:
+button.addEventListener("click", function () {
+	console.log("CLICK !!!!");
+});
+//Method 2:
+//addListAfterClick = Callback function (without added ()):
+//the function now automatically gets run (auto-gets added the ()) every time the click happens. So we are passing a reference to the function without running it (without added ()).
+button.addEventListener("click", addListAfterClick);
+
+//Method 3:
+button.onclick = addListAfterClick;
+```
+
+**Method 4: Add Event Listener directly in HTML Tag**
+Using: onclick, onsubmit, oninput in HTML tags
+```HTML
+<button onclick="myFunction()">Click me</button>
+<input oninput="setGradient()" class="color1" type="color" name="color1" value="#00ff00">
+
+```
 [(Back to top)](#table-of-contents)
 
 # FAQ
