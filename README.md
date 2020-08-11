@@ -84,10 +84,15 @@ Javascript NoteBook for Beginners from CodeXplore
 
    - **forEach**: loop over something
     ```Javascript
-	
 	const double = [];
 	array.forEach((num) => {
 	  double.push(num * 2);
+	});
+    ```
+    - **map**: loop over something & return a new array (diff from forEach)
+    ```Javascript
+	const mapArray = array.map((num) => {
+	  return num * 2;
 	});
     ```
 
