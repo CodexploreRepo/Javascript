@@ -87,7 +87,7 @@ button.addEventListener("click", addListAfterClick);
 button.onclick = addListAfterClick;
 ```
 
-**Method 4: Add Event Listener directly in HTML Tag**
+**Method 4: Add Event Listener directly in HTML Tag**<br>
 Using: onclick, onsubmit, oninput in HTML tags
 ```HTML
 <button onclick="myFunction()">Click me</button>
