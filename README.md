@@ -140,7 +140,7 @@ const obj = {a,b,c}
           console.log(todo);
       });
     ```
-7. **Type Coercion: **
+7. **Type Coercion**:
      ```Javascript
 	//Type coercion: since JS is dynamic type
 	console.log(1 == "1"); //returns True as JS convert '1' to 1 = Type coercion
