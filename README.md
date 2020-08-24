@@ -6,6 +6,13 @@ Javascript NoteBook for Beginners from CodeXplore
 
 - [Table of contents](#table-of-contents)
 - [Basics](#basics)
+   - Variables
+   - Control Flow
+   - Function
+   - Array
+   - Object
+   - Loop
+   - Type Coercion
 - [Document Object Model](#document-object-model)
 - [FAQ](#faq)
 
@@ -133,6 +140,12 @@ const c = {};
 const obj = {a,b,c}
 ```
 6. **Loop: for, while, forEach**
+     - **for***
+     ```Javascript
+	for (let index of array) {
+   		const mask = 1 << index;
+    ```
+     
      - **forEach**
      ```Javascript
       todos.forEach(function (todo, index) {
