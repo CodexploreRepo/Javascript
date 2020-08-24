@@ -215,6 +215,24 @@ Using: onclick, onsubmit, oninput in HTML tags
 <input oninput="setGradient()" class="color1" type="color" name="color1" value="#00ff00">
 
 ```
+
+**Method 5: Add Event Listener directly in JSX - React**<br>
+
+```JSX
+const ImageLinkForm = () => {
+      return (
+	   <button onClick={onButtonSubmit}>
+		    Detect
+	   </button>
+	   
+	   //If you want to pass the input, for ex: "home", to Event Handler functionm => use Arrow Function to prevent default auto-trigger with () 
+	   <input onClick={() => onRouteChange("home")} />
+	   
+	)
+	
+```
+      
+
 [(Back to top)](#table-of-contents)
 
 # FAQ
