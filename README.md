@@ -140,10 +140,11 @@ const c = {};
 const obj = {a,b,c}
 ```
 6. **Loop: for, while, forEach**
-     - **for***
+     - **for**
      ```Javascript
 	for (let index of array) {
    		const mask = 1 << index;
+	}
     ```
      
      - **forEach**
