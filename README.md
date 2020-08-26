@@ -84,7 +84,14 @@ Javascript NoteBook for Beginners from CodeXplore
 	//curriedMultiply(5) = (b) => 5 * b
 	const multiplyBy5 = curriedMultiply(5);
     ```
-4. **String**   
+4. **String** 
+    - **How to  a string**
+    ```JavaScript
+    	var str1 = 'The morning is upon us.';
+	var str2 = str1.slice(4, -2);
+    
+    ```
+
    - **How to sort a string**
    
    ```JavaScript
