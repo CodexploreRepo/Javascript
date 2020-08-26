@@ -83,8 +83,18 @@ Javascript NoteBook for Beginners from CodeXplore
 	//curriedMultiply(5) = (b) => 5 * b
 	const multiplyBy5 = curriedMultiply(5);
     ```
-    
-4. **Array**
+4. **String**   
+   - **How to sort a string**
+   
+   ```JavaScript
+    //need to .split("") the string to sort the array
+    //JS dont have .sort() for string, only for array
+
+    //need to .join("") after sorted to compare to string
+    //Since === cannot compare 2 arrays
+    var sortedStringOne = stringOne.split("").sort().join("");
+   ```
+5. **Array**
     ```Javascript
 	const array = [1, 2, 10, 16];
     ```
@@ -111,7 +121,7 @@ Javascript NoteBook for Beginners from CodeXplore
 	});
     ```
 
-5. **Object**
+6. **Object**
 
 ```JavaScript
 const user = {
